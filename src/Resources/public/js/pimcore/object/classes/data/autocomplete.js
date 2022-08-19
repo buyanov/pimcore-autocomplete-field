@@ -1,4 +1,5 @@
 pimcore.registerNS("pimcore.object.classes.data.autocomplete");
+
 pimcore.object.classes.data.autocomplete = Class.create(pimcore.object.classes.data.data, {
 
     type: "autocomplete",
@@ -17,9 +18,7 @@ pimcore.object.classes.data.autocomplete = Class.create(pimcore.object.classes.d
 
     initialize: function (treeNode, initData) {
         this.type = "autocomplete";
-
         this.initData(initData);
-
         this.treeNode = treeNode;
     },
 
