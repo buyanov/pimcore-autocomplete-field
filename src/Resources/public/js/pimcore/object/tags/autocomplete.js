@@ -57,7 +57,7 @@ pimcore.object.tags.autocomplete = Class.create(pimcore.object.tags.select, {
     },
 
     createStore: function () {
-        if (this.fieldConfig.dataSourceRoute !== '') {
+        if (this.fieldConfig && this.fieldConfig.dataSourceRoute !== '') {
             return new Ext.data.JsonStore({
                 proxy: {
                     type: 'ajax',
