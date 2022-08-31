@@ -1,7 +1,7 @@
 {
   "name": "buyanov/pimcore-autocomplete-field",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "pimcore-bundle",
   "description": "Pimcore Autocomplete Field",
   "config": {
