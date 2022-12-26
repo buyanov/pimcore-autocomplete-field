@@ -94,7 +94,9 @@ pimcore.object.tags.autocomplete = Class.create(pimcore.object.tags.select, {
             value: this.data,
             typeAhead: true,
             selectOnFocus: true,
+            forceSelection: true,
             readOnly: this.fieldConfig.noteditable,
+            minChars: 1,
             triggers: {
                 clearButton: {
                     cls: 'x-form-clear-trigger',
